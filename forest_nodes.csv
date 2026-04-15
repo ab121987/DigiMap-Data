@@ -1,0 +1,16 @@
+node_id,node_label,node_category,scale,birth_month,death_month,stasis_start,stasis_end,initial_state,carbon_pool_type,notes
+F1,Atmospheric CO2,atmosphere,landscape,0,,,,active,atmospheric,External source and sink for the forest carbon cycle
+F2,Young broadleaf trees,tree cohort,stand,0,240,,,establishing,biomass,Fast growth and high carbon uptake
+F3,Mature broadleaf trees,tree cohort,stand,24,240,,,mature,biomass,Large carbon store and canopy stabiliser
+F4,Ancient trees / remnant woodland,tree cohort,landscape,0,240,,,ancient,biomass,Slow growth but deep ecological memory and habitat value
+F5,Harvest woodland block,managed woodland,stand,0,240,,,managed,biomass,Periodic harvesting and regrowth
+F6,Felled trees / nursing logs,deadwood,microhabitat,6,180,,,decaying,deadwood,Transition node generating new habitat and soil inputs
+F7,Mycorrhizal network,fungal network,soil-root,0,240,,,active,soil_biota,Mediates carbon and nutrient exchange between roots and soil
+F8,Forest soil carbon,soil,stand,0,240,,,stored,soil_carbon,Slow carbon pool
+F9,Soil health,soil condition,stand,0,240,,,resilient,soil_condition,"Composite node for structure, moisture, microbial activity"
+F10,Understory vegetation,plants,stand,0,240,,,seasonal,biomass,Responds quickly to light and soil changes
+F11,Insects and decomposers,fauna,microhabitat,0,240,,,active,faunal_activity,Key decomposition and trophic transfer node
+F12,Birds and seed dispersers,fauna,stand,0,240,,,mobile,faunal_activity,Redistributes seeds and responds to habitat structure
+F13,Leaf litter,organic matter,surface,1,240,,,seasonal,litter,Short-term carbon transfer layer
+F14,Wood products / manufacturing,offsite use,regional,12,240,,,active,harvested_carbon,Harvested carbon retained offsite for a period
+F15,River / runoff boundary,hydrology,boundary,0,240,,,active,leak_boundary,Receives nutrients and carbon leaking out of system

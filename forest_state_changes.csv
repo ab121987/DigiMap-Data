@@ -1,0 +1,11 @@
+time_step,node_id,old_state,new_state,trigger,visibility,notes
+0,F2,none,establishing,baseline,high,Young trees present from start
+24,F2,establishing,maturing,growth,medium,Tree cohort transitions to maturing
+36,F3,mature,stressed,drought_or_disease,medium,Mature trees show signs of stress
+48,F3,stressed,partial_dieback,compound_disturbance,high,Partial canopy loss
+54,F6,none,fresh_deadwood,felling_or_dieback,high,New nursing logs created
+72,F6,fresh_deadwood,active_decay,decomposition,medium,Deadwood opens habitat niches
+96,F6,active_decay,soil_incorporated,advanced_decay,low,Carbon mostly redistributed into soil and biota
+108,F10,seasonal,expanding,light_gap_opening,medium,Understory responds to canopy opening
+132,F9,resilient,degraded,runoff_and_compaction,medium,Soil condition weakens
+156,F9,degraded,recovering,fungal_recovery,low,Soil health partially restored

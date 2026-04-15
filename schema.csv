@@ -1,0 +1,7 @@
+Sheet,Purpose
+forest_nodes,"Forest ecological actors and stocks. Each row is a node that can appear, persist, fade, or transform over time."
+forest_exchanges,"Dynamic exchanges between nodes. Includes loops, leaks, and branch fractions so flows can split and recycle."
+forest_state_changes,"Node lifecycle transitions across months/years (birth, growth, disease, death, decay, regeneration)."
+peat_nodes,"Peatland ecological actors and stocks across hydrology, plant cover, carbon pools, and habitat structure."
+peat_exchanges,"Dynamic exchanges between peatland nodes, including hydrological, carbon, and symbiotic flows."
+peat_state_changes,"State transitions in peatland processes such as wetting, drying, oxidation, vegetation recovery, and peat accumulation."
