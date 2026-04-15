@@ -1,0 +1,54 @@
+<?xml-stylesheet type='text/xsl' href='./CodelistDictionary-v32.xsl'?>
+<Dictionary xmlns="http://www.opengis.net/gml/3.2" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="HydroNodeCategoryValue" xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+	<description>Classification value defining the type of hydrographic node.</description>
+	<identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/">HydroNodeCategoryValue</identifier>
+	<dictionaryEntry>
+		<Definition gml:id="flowConstriction">
+			<description>A split in the network captured to indicate a hydrographic point of interest or facility, or a man-made object that affects the network flow.</description>
+			<identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/HydroNodeCategoryValue">flowConstriction</identifier>
+			<name>flowConstriction</name>
+		</Definition>
+	</dictionaryEntry>
+	<dictionaryEntry>
+		<Definition gml:id="flowRegulation">
+			<description>A split in the network captured to indicate a man-made object, that is used to regulate the network flow.</description>
+			<identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/HydroNodeCategoryValue">flowRegulation</identifier>
+			<name>flowRegulation</name>
+		</Definition>
+	</dictionaryEntry>
+	<dictionaryEntry>
+		<Definition gml:id="junction">
+			<description>A split in the network to indicate where three or more watercourses meet at the same level such as confluences or bifurcations.</description>
+			<identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/HydroNodeCategoryValue">junction</identifier>
+			<name>junction</name>
+		</Definition>
+	</dictionaryEntry>
+	<dictionaryEntry>
+		<Definition gml:id="outlet">
+			<description>The end terminal of a set of one or more interconnected links that does not have any downstream flow. For example sinks or the point where a river enters the sea.</description>
+			<identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/HydroNodeCategoryValue">outlet</identifier>
+			<name>outlet</name>
+		</Definition>
+	</dictionaryEntry>
+	<dictionaryEntry>
+		<Definition gml:id="source">
+			<description>The start terminal of a set of one or more interconnected links that has downstream flow. For example springs or collects.</description>
+			<identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/HydroNodeCategoryValue">source</identifier>
+			<name>source</name>
+		</Definition>
+	</dictionaryEntry> 
+	<dictionaryEntry>
+		<Definition gml:id="pseudo">
+			<description>A location where the real world attribution of a watercourse changes that requires a watercourseLink to be split.</description>
+			<identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/HydroNodeCategoryValue">pseudo</identifier>
+			<name>pseudo</name>
+		</Definition>
+	</dictionaryEntry>
+	<dictionaryEntry>
+		<Definition gml:id="oundary">
+			<description>Node used to connect different networks. NOTE Can be used to connect cross border networks or adjacent networks together. Differs from source / outlet in that in the real world there is an adjacent link that is not present in the dataset supplied.(Source: INSPIRE)</description>
+			<identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/HydroNodeCategoryValue">boundary</identifier>
+			<name>oundary</name>
+		</Definition>
+	</dictionaryEntry>
+</Dictionary>

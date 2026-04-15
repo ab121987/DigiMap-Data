@@ -1,0 +1,179 @@
+********************************************************************
+
+EDINA DIGIMAP:
+
+DIGITAL DATA SUPPLY
+
+********************************************************************
+
+
+This data is distributed under licence by:
+
+    EDINA
+    University of Edinburgh
+    https://edina.ac.uk
+
+    Tel:    0131 650 3302
+    Fax:    0131 650 3308
+    Email:  digimap@ed.ac.uk
+		
+
+
+---------------------------------------------------------
+
+CONTENTS
+
+You will have received the data files listed below, each product and area has
+its own folder. Note that each data folder contains a conditions.txt file
+which states the conditions for use of the data within. These conditions can
+vary between different data products.
+
+
+
+-------------------------------------------------------------------------------
+Folder:           vml_6363875
+Extent:           364847.9394315371, 453335.7538560268 - 365868.6026730371, 453951.0679816168
+Date Ordered:     13 April 2026 at 12:47:13
+Product:          OS VectorMap® Local
+Version:          October 2025
+Format:           GeoPackage
+Theme:            N/A
+Area:             2 tiles
+Tiles:
+ 
+Tile Name:        sd65se
+Extent:           365000.0, 450000.0 - 370000.0, 455000.0
+Last Amended:     1 October 2025
+  
+Tile Name:        sd65sw
+Extent:           360000.0, 450000.0 - 365000.0, 455000.0
+Last Amended:     1 October 2025
+    -------------------------------------------------------------------------------
+Folder:           terrain-50-dtm_6363874
+Extent:           364847.9394315371, 453335.7538560268 - 365868.6026730371, 453951.0679816168
+Date Ordered:     13 April 2026 at 12:47:13
+Product:          OS Terrain 50
+Version:          July 2025
+Format:           ASC
+Theme:            N/A
+Area:             1 tiles
+Tiles:
+ 
+Tile Name:        sd65
+Extent:           360000.0, 450000.0 - 370000.0, 460000.0
+Last Amended:     29 May 2025
+    -------------------------------------------------------------------------------
+Folder:           terrain-50_6363873
+Extent:           364847.9394315371, 453335.7538560268 - 365868.6026730371, 453951.0679816168
+Date Ordered:     13 April 2026 at 12:47:13
+Product:          OS Terrain 50
+Version:          July 2025
+Format:           SHAPE
+Theme:            N/A
+Area:             1 tiles
+Tiles:
+ 
+Tile Name:        sd65
+Extent:           360000.0, 450000.0 - 370000.0, 460000.0
+Last Amended:     29 May 2025
+    -------------------------------------------------------------------------------
+Folder:           terrain-5-dtm_6363872
+Extent:           364847.9394315371, 453335.7538560268 - 365868.6026730371, 453951.0679816168
+Date Ordered:     13 April 2026 at 12:47:13
+Product:          OS Terrain 5
+Version:          January 2026
+Format:           ASC
+Theme:            N/A
+Area:             2 tiles
+Tiles:
+ 
+Tile Name:        sd65se
+Extent:           365000.0, 450000.0 - 370000.0, 455000.0
+Last Amended:     1 December 2023
+  
+Tile Name:        sd65sw
+Extent:           360000.0, 450000.0 - 365000.0, 455000.0
+Last Amended:     1 December 2023
+    -------------------------------------------------------------------------------
+Folder:           terrain-5_6363871
+Extent:           364847.9394315371, 453335.7538560268 - 365868.6026730371, 453951.0679816168
+Date Ordered:     13 April 2026 at 12:47:13
+Product:          OS Terrain 5
+Version:          January 2026
+Format:           SHAPE
+Theme:            N/A
+Area:             2 tiles
+Tiles:
+ 
+Tile Name:        sd65se
+Extent:           365000.0, 450000.0 - 370000.0, 455000.0
+Last Amended:     2 December 2023
+  
+Tile Name:        sd65sw
+Extent:           360000.0, 450000.0 - 365000.0, 455000.0
+Last Amended:     2 December 2023
+    -------------------------------------------------------------------------------
+Folder:           open-roads_6363870
+Extent:           364847.9394315371, 453335.7538560268 - 365868.6026730371, 453951.0679816168
+Date Ordered:     13 April 2026 at 12:47:13
+Product:          OS Open Roads
+Version:          October 2025
+Format:           SHAPE
+Theme:            N/A
+Area:             1 tiles
+Tiles:
+ 
+Tile Name:        sd
+Extent:           300000.0, 400000.0 - 400000.0, 500000.0
+Last Amended:     29 October 2025
+    -------------------------------------------------------------------------------
+Folder:           open-rivers_6363869
+Extent:           364847.9394315371, 453335.7538560268 - 365868.6026730371, 453951.0679816168
+Date Ordered:     13 April 2026 at 12:47:13
+Product:          OS Open Rivers
+Version:          October 2025
+Format:           GeoPackage
+Theme:            N/A
+Area:             National Coverage
+ -------------------------------------------------------------------------------
+Folder:           open-greenspace_6363868
+Extent:           364847.9394315371, 453335.7538560268 - 365868.6026730371, 453951.0679816168
+Date Ordered:     13 April 2026 at 12:47:13
+Product:          OS Open Greenspace
+Version:          October 2025
+Format:           GeoPackage
+Theme:            N/A
+Area:             National Coverage
+ -------------------------------------------------------------------------------
+Folder:           MasterMap Water Network_6363867
+Extent:           364847.9394315371, 453335.7538560268 - 365868.6026730371, 453951.0679816168
+Date Ordered:     13 April 2026 at 12:47:13
+Product:          OS MasterMap Water Network
+Version:          January 2026
+Format:           GML3
+Theme:            N/A
+Area:             2 tiles
+Tiles:
+ 
+Tile Name:        sd65sw
+Extent:           360000.0, 450000.0 - 365000.0, 455000.0
+Last Amended:     22 December 2025
+  
+Tile Name:        sd65se
+Extent:           365000.0, 450000.0 - 370000.0, 455000.0
+Last Amended:     22 December 2025
+    -------------------------------------------------------------------------------
+Folder:           mastermap-topo_6363866
+Extent:           364847.9394315371, 453335.7538560268 - 365868.6026730371, 453951.0679816168
+Date Ordered:     13 April 2026 at 12:47:13
+Product:          OS MasterMap® Topography Layer
+Version:          December 2025
+Format:           GeoPackage
+Theme:            N/A
+Area:             0.6280285099654401 square kilometres
+Chunks:
+ 
+Filename:         mastermap-topo_6363866/mastermap-topo_6363866.gpkg
+Extent:           364847.9394315371, 453335.7538560268 - 365868.6026730371, 453951.0679816168
+Last Amended:     11 December 2025
+     

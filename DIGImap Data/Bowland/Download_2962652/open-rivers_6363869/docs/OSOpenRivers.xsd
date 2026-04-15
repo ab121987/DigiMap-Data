@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<schema xmlns="http://www.w3.org/2001/XMLSchema" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:gmlxbt="http://www.opengis.net/gml/3.3/xbt" xmlns:hy-n="urn:x-inspire:specification:gmlas:HydroNetwork:3.0" xmlns:river="http://namespaces.os.uk/Open/Rivers/1.0" xmlns:os="http://namespaces.os.uk/product/1.0" targetNamespace="http://namespaces.os.uk/Open/Rivers/1.0" elementFormDefault="qualified" version="1.0">
+	<import namespace="http://www.opengis.net/gml/3.2" schemaLocation="http://schemas.opengis.net/gml/3.2.1/gml.xsd"/>
+	<import namespace="http://www.opengis.net/gml/3.3/xbt" schemaLocation="http://schemas.opengis.net/gml/3.3/extdBaseTypes.xsd"/>
+	<import namespace="urn:x-inspire:specification:gmlas:HydroNetwork:3.0" schemaLocation="http://inspire.ec.europa.eu/schemas/hy-n/3.0/HydroNetwork.xsd"/>
+	<import namespace="http://namespaces.os.uk/product/1.0" schemaLocation="https://www.ordnancesurvey.co.uk/xml/schema/product/1.0/OSProduct.xsd"/>
+	<!--XML Schema document created by ShapeChange - http://shapechange.net/-->
+	<element name="HydroNode" type="river:HydroNodeType" substitutionGroup="hy-n:HydroNode">
+		<annotation>
+			<documentation>A feature at the end of one or more WatercourseLink features that indicates either the confluence or two or more watercourses and/or a change in the attribution of the WatercourseLink features.</documentation>
+		</annotation>
+	</element>
+	<complexType name="HydroNodeType">
+		<complexContent>
+			<extension base="hy-n:HydroNodeType">
+				<sequence/>
+			</extension>
+		</complexContent>
+	</complexType>
+	<complexType name="HydroNodePropertyType">
+		<sequence minOccurs="0">
+			<element ref="river:HydroNode"/>
+		</sequence>
+		<attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</complexType>
+	<element name="WatercourseLink" type="river:WatercourseLinkType" substitutionGroup="hy-n:WatercourseLink">
+		<annotation>
+			<documentation>A segment that forms part of a watercourse.</documentation>
+		</annotation>
+	</element>
+	<complexType name="WatercourseLinkType">
+		<complexContent>
+			<extension base="hy-n:WatercourseLinkType">
+				<sequence>
+					<element name="form" nillable="true">
+						<annotation>
+							<documentation>Classification of the type of watercourse that is formed by the WatercourseLink.</documentation>
+						</annotation>
+						<complexType>
+							<simpleContent>
+								<extension base="gml:CodeType">
+									<attribute name="nilReason" type="gml:NilReasonType"/>
+								</extension>
+							</simpleContent>
+						</complexType>
+					</element>
+					<element name="watercourseName" type="gmlxbt:LanguageStringType" minOccurs="0">
+						<annotation>
+							<documentation>Recognised name assigned to the watercourse. 
+
+NOTE 1: The language used to define the name shall also be provided as a 3-digit ISO 639-2 code ('eng', cym' gla')
+
+NOTE 2: Where a watercourse has a name in more than one language then this attribute will be the Welsh or Gaelic version.</documentation>
+						</annotation>
+					</element>
+					<element name="watercourseNameAlternative" type="gmlxbt:LanguageStringType" minOccurs="0">
+						<annotation>
+							<documentation>An alternative name of the main watercourse the link is part of.
+
+NOTE 1: The language used to define the name shall also be provided as a 3-digit ISO 639-2 code ('eng', cym' gla')
+
+NOTE 2: Where a watercourse has a name in more than one language then this attribute will be the Welsh or Gaelic version.</documentation>
+						</annotation>
+					</element>
+				</sequence>
+			</extension>
+		</complexContent>
+	</complexType>
+	<complexType name="WatercourseLinkPropertyType">
+		<sequence minOccurs="0">
+			<element ref="river:WatercourseLink"/>
+		</sequence>
+		<attributeGroup ref="gml:AssociationAttributeGroup"/>
+		<attributeGroup ref="gml:OwnershipAttributeGroup"/>
+	</complexType>
+</schema>

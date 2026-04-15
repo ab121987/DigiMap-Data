@@ -1,0 +1,23 @@
+The citations in this document should be used to reference the maps and data
+when they have been included in any essays, dissertations or other academic
+works. You should cite the data even if it doesn't appear as an image or map
+in your work if it has been used to generate findings or a new dataset that is
+used.
+
+There is one entry for each product and selected area; you can edit the
+citation if you only use part of the data it covers. Any citations provided
+below are a guide only and should be given in addition to any requirement to
+acknowledge sources and copyright of any data used or any local guidance
+provided:
+
+OS VectorMap® Local [GeoPackage geospatial data], Scale 1:10000, Tiles: sd65se,sd65sw, Updated: 1 October 2025, Ordnance Survey (GB), Using: EDINA Digimap Ordnance Survey Service, <https://digimap.edina.ac.uk>, Downloaded: 2026-04-13 12:47:13.944
+OS Terrain 50 [ASC geospatial data], Scale 1:50000, Tiles: sd65, Updated: 2 June 2025, Ordnance Survey (GB), Using: EDINA Digimap Ordnance Survey Service, <https://digimap.edina.ac.uk>, Downloaded: 2026-04-13 12:47:13.944
+OS Terrain 50 [SHAPE geospatial data], Scale 1:50000, Tiles: sd65, Updated: 2 June 2025, Ordnance Survey (GB), Using: EDINA Digimap Ordnance Survey Service, <https://digimap.edina.ac.uk>, Downloaded: 2026-04-13 12:47:13.944
+OS Terrain 5 [ASC geospatial data], Scale 1:10000, Tiles: sd65se,sd65sw, Updated: 5 December 2025, Ordnance Survey (GB), Using: EDINA Digimap Ordnance Survey Service, <https://digimap.edina.ac.uk>, Downloaded: 2026-04-13 12:47:13.944
+OS Terrain 5 [SHAPE geospatial data], Scale 1:10000, Tiles: sd65se,sd65sw, Updated: 5 December 2025, Ordnance Survey (GB), Using: EDINA Digimap Ordnance Survey Service, <https://digimap.edina.ac.uk>, Downloaded: 2026-04-13 12:47:13.944
+OS Open Roads [SHAPE geospatial data], Scale 1:25000, Tiles: sd, Updated: 29 October 2023, Ordnance Survey (GB), Using: EDINA Digimap Ordnance Survey Service, <https://digimap.edina.ac.uk>, Downloaded: 2026-04-13 12:47:13.944
+OS Open Rivers [GeoPackage geospatial data], Scale 1:25000, Tiles: GB, Updated: 29 October 2025, Ordnance Survey (GB), Using: EDINA Digimap Ordnance Survey Service, <https://digimap.edina.ac.uk>, Downloaded: 2026-04-13 12:47:13.944
+OS Open Greenspace [GeoPackage geospatial data], Scale 1:25000, Tiles: GB, Updated: 15 October 2025, Ordnance Survey (GB), Using: EDINA Digimap Ordnance Survey Service, <https://digimap.edina.ac.uk>, Downloaded: 2026-04-13 12:47:13.944
+OS MasterMap Water Network [GML3 geospatial data], Scale 1:2500, Tiles: sd65sw,sd65se, Updated: 22 December 2025, Ordnance Survey (GB), Using: EDINA Digimap Ordnance Survey Service, <https://digimap.edina.ac.uk>, Downloaded: 2026-04-13 12:47:13.944
+OS MasterMap® Topography Layer [GeoPackage geospatial data], Scale 1:1250, Tiles: GB, Updated: 11 December 2025, Ordnance Survey (GB), Using: EDINA Digimap Ordnance Survey Service, <https://digimap.edina.ac.uk>, Downloaded: 2026-04-13 12:47:13.944
+

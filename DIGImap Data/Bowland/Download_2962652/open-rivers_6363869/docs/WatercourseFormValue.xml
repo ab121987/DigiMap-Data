@@ -1,0 +1,102 @@
+<?xml-stylesheet type='text/xsl' href='./CodelistDictionary-v32.xsl'?><Dictionary xmlns="http://www.opengis.net/gml/3.2" xmlns:gml="http://www.opengis.net/gml/3.2" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" gml:id="WatercourseFormValue" xsi:schemaLocation="http://www.opengis.net/gml/3.2 http://schemas.opengis.net/gml/3.2.1/gml.xsd">
+  <description>Classification value defining the type of WatercourseLink.</description>
+  <identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/">WatercourseFormValue</identifier>
+  <dictionaryEntry>
+    <Definition gml:id="canal">
+      <description>A manmade watercourse originally created for inland navigation where the refined classification of narrowCanal or wideCanal has not be assigned.</description>
+      <identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/WatercourseFormValue">canal</identifier>
+      <name>canal</name>
+    </Definition>
+  </dictionaryEntry>
+  <dictionaryEntry>
+    <Definition gml:id="drain">
+      <description>A manmade watercourse whose primary purpose is the removal of excess water from a localisedn area.</description>
+      <identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/WatercourseFormValue">drain</identifier>
+      <name>drain</name>
+    </Definition>
+  </dictionaryEntry>
+  <dictionaryEntry>
+    <Definition gml:id="foreshore">
+      <description>Watercourse flows over the foreshore i.e. between mean high water (springs) high and mean low water (springs). Primarily used only where provenance is OS-line.</description>
+      <identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/WatercourseFormValue">foreshore</identifier>
+      <name>foreshore</name>
+    </Definition>
+  </dictionaryEntry>
+  <dictionaryEntry>
+    <Definition gml:id="inlandRiver">
+      <description>A river or stream that is not influenced by normal tidal action.</description>
+      <identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/WatercourseFormValue">inlandRiver</identifier>
+      <name>inlandRiver</name>
+    </Definition>
+  </dictionaryEntry>
+  <dictionaryEntry>
+    <Definition gml:id="lake">
+      <description>Lake, loch or reservoir</description>
+      <identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/WatercourseFormValue">lake</identifier>
+      <name>lake</name>
+    </Definition>
+  </dictionaryEntry>
+  <dictionaryEntry> 
+    <Definition gml:id="lockOrFlightOfLocks">
+      <description>An enclosure in a canal or navigable river with a movable gate and sluices at either end. Designed to allow vessels to move between sections of canal or navigable river at different levels by filling or draining the enclosure.</description>
+      <identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/WatercourseFormValue">lockOrFlightOfLocks</identifier>
+      <name>lockOrFlightOfLocks</name>
+    </Definition>
+  </dictionaryEntry>
+  <dictionaryEntry>
+    <Definition gml:id="marsh">
+      <description>An area of ground that is predominantly waterlogged by freshwater throughout the year with no identifiable specific alignment for the flow. For the water network  they are captured only where water flows into and out of the marsh and connects to other watercourse links.</description>
+      <identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/WatercourseFormValue">marsh</identifier>
+      <name>marsh</name>
+    </Definition>
+  </dictionaryEntry>
+  <dictionaryEntry>
+    <Definition gml:id="reservoir">
+      <description>An area of non-tidal water used for storing water that may be used for irrigation, water supply, power generation or flood control that has been created artificially either fully or in part.</description>
+      <identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/WatercourseFormValue">reservoir</identifier>
+      <name>reservoir</name>
+    </Definition>
+  </dictionaryEntry>
+  <dictionaryEntry>
+    <Definition gml:id="sea">
+      <description>Estuary or open sea</description>
+      <identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/WatercourseFormValue">sea</identifier>
+      <name>sea</name>
+    </Definition>
+  </dictionaryEntry>
+  <dictionaryEntry>
+    <Definition gml:id="tidalRiver">
+      <description>Tidal river or stream (i.e. below Normal Tidal Limit)</description>
+      <identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/WatercourseFormValue">tidalRiver</identifier>
+	  <name>tidalRiver</name>
+    </Definition>
+  </dictionaryEntry>
+  <dictionaryEntry>
+    <Definition gml:id="transfer">
+      <description>Manmade watercourse whose primary purpose is for water transfer</description>
+      <identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/WatercourseFormValue">transfer</identifier>
+      <name>transfer</name>
+    </Definition>
+  </dictionaryEntry>
+  <dictionaryEntry>
+    <Definition gml:id="lock">
+      <description>An enclosure in a canal or navigable river with a movable gate and sluices at either end. Designed to allow vessels to move between sections of canal or navigable river at different levels by filling or draining the enclosure.</description>
+      <identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/WatercourseFormValue">lock</identifier>
+      <name>lock</name>
+    </Definition>
+  </dictionaryEntry>
+  <dictionaryEntry>
+    <Definition gml:id="narrowCanal">
+      <description>A manmade watercourse originally created for inland navigation that is defined by the Canal and River Trust as a narrow canal.</description>
+      <identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/WatercourseFormValue">narrowCanal</identifier>
+      <name>narrowCanal</name>
+    </Definition>
+  </dictionaryEntry>
+  <dictionaryEntry>
+    <Definition gml:id="wideCanal">
+      <description>A manmade watercourse originally created for inland navigation that is defined by the Canal and River Trust as a wide canal.</description>
+      <identifier codeSpace="http://www.ordnancesurvey.co.uk/xml/codelists/WatercourseFormValue">wideCanal</identifier>
+      <name>wideCanal</name>
+    </Definition>
+  </dictionaryEntry>
+</Dictionary>

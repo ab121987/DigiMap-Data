@@ -1,0 +1,105 @@
+********************************************************************
+
+EDINA DIGIMAP:
+
+DIGITAL DATA SUPPLY
+
+********************************************************************
+
+
+This data is distributed under licence by:
+
+    EDINA
+    University of Edinburgh
+    https://edina.ac.uk
+
+    Tel:    0131 650 3302
+    Fax:    0131 650 3308
+    Email:  digimap@ed.ac.uk
+		
+
+
+---------------------------------------------------------
+
+CONTENTS
+
+You will have received the data files listed below, each product and area has
+its own folder. Note that each data folder contains a conditions.txt file
+which states the conditions for use of the data within. These conditions can
+vary between different data products.
+
+
+
+-------------------------------------------------------------------------------
+Folder:           england-dtm-2m_6363831
+Extent:           364816.0, 453285.0 - 365986.0, 454021.0
+Date Ordered:     13 April 2026 at 12:21:51
+Product:          Lidar Composite Digital Terrain Model England 2m resolution
+Version:          Composite
+Format:           TIFF
+Theme:            N/A
+Area:             2 tiles
+Tiles:
+ 
+Tile Name:        sd65se
+Extent:           365000.0, 450000.0 - 370000.0, 455000.0
+Last Amended:     12 January 2021
+  
+Tile Name:        sd65sw
+Extent:           360000.0, 450000.0 - 365000.0, 455000.0
+Last Amended:     12 January 2021
+    -------------------------------------------------------------------------------
+Folder:           england-dtm-1m_6363830
+Extent:           364816.0, 453285.0 - 365986.0, 454021.0
+Date Ordered:     13 April 2026 at 12:21:51
+Product:          Lidar Composite Digital Terrain Model England 1m resolution
+Version:          Composite
+Format:           TIFF
+Theme:            N/A
+Area:             2 tiles
+Tiles:
+ 
+Tile Name:        sd65se
+Extent:           365000.0, 450000.0 - 370000.0, 455000.0
+Last Amended:     12 January 2021
+  
+Tile Name:        sd65sw
+Extent:           360000.0, 450000.0 - 365000.0, 455000.0
+Last Amended:     12 January 2021
+    -------------------------------------------------------------------------------
+Folder:           england-dsm-lr-1m_6363829
+Extent:           364816.0, 453285.0 - 365986.0, 454021.0
+Date Ordered:     13 April 2026 at 12:21:51
+Product:          Lidar Composite Last Return Digital Surface Model England 1m resolution
+Version:          Composite
+Format:           TIFF
+Theme:            N/A
+Area:             2 tiles
+Tiles:
+ 
+Tile Name:        sd65se
+Extent:           365000.0, 450000.0 - 370000.0, 455000.0
+Last Amended:     12 January 2021
+  
+Tile Name:        sd65sw
+Extent:           360000.0, 450000.0 - 365000.0, 455000.0
+Last Amended:     12 January 2021
+    -------------------------------------------------------------------------------
+Folder:           england-dsm-fr-1m_6363828
+Extent:           364816.0, 453285.0 - 365986.0, 454021.0
+Date Ordered:     13 April 2026 at 12:21:51
+Product:          Lidar Composite First Return Digital Surface Model England 1m resolution
+Version:          Composite
+Format:           TIFF
+Theme:            N/A
+Area:             2 tiles
+Tiles:
+ 
+Tile Name:        sd65se
+Extent:           365000.0, 450000.0 - 370000.0, 455000.0
+Last Amended:     12 January 2021
+  
+Tile Name:        sd65sw
+Extent:           360000.0, 450000.0 - 365000.0, 455000.0
+Last Amended:     12 January 2021
+     
